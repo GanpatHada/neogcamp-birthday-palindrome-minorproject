@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Comfortaa:wght@500&family=El+Messiri&family=Josefin+Sans:wght@200;400&family=Lobster&family=Pacifico&family=Roboto&family=Sofia&family=Ubuntu:wght@300&family=Varela+Round&family=Zen+Loop&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+:root{
+    --primarycolor:orangered;
+}
+
+
+footer{
+    background-color: var(--primarycolor);
+    padding: 15px;
+    text-align: center;
+    color:white;
+    width: 100vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+main{
+    background-color: whitesmoke;
+    min-height: calc(100vh - 177px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 80px;
+    width: 100vw;
+    background-color: var(--primarycolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sofia', cursive;
+    
+}
+header span{
+    font-family: 'Sofia', cursive;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+#box{
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 40px 20px;
+    border-radius: 5px;
+    
+}
+input{
+    width: 90%;
+    display: block;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #8080809e;
+    border-radius: 5px;
+    padding: 0px 10px;
+    transition: 0.3s ease-in-out box-shadow;
+
+
+}
+input:focus{
+    outline: none;
+    border: 1px solid var(--primarycolor);
+}
+input[type=submit]
+{
+   
+    background-color: var(--primarycolor);
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease-in background;
+}
+
+
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+h2{
+    text-align: center;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#box p{
+    text-align: center;
+    color: darkgray;
+    font-family: sans-serif;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+}
+i{
+    color:white;
+    font-size: 24px;
+    margin: 10px 5px;
+}
+label{
+    margin:20px;
+    font-weight: bold;
+}
