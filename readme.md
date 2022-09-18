@@ -9,4 +9,5 @@ HTML,CSS,JS
 
 ### LIVE DEMO
 
-[Link 1](https://ganpat-birthday-palindrome.netlify.app)
+[Link 1](https://ganpat-birthday-palindrome.netlify.app)\
+[Link 2](https://ganpathada.github.io/neogcamp-birthday-palindrome-minorproject/)
